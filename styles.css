@@ -197,7 +197,6 @@ h2.above-title {
   transition: opacity 1.25s ease-in;
 }
 
-.navbar-inner:hover #bg-image,
 .navbar-inner.black,
 .navbar-inner #bg-image.black {
   opacity: 0;
@@ -543,9 +542,9 @@ html, body {
 .arrow-wrap{
   position:relative;
   top: 15px;
-  z-index:1;
+  z-index:10;
   margin: 0 auto;
-  width:10em;
+  width:11em;
   height:10em;
   padding:1em 1em;
   font-size:0.7em;
@@ -885,6 +884,10 @@ html, body {
     transform: translate3d(-250px,0,0);
   }
 
+  .nav-resume #bg-image {
+    opacity: .5;
+  }
+
   .navbar-right {
     width: 100%;
     margin-left: 0;
@@ -936,6 +939,19 @@ html, body {
     transform: rotate(45deg);
     position: relative;
     top: -6px;
+  }
+
+  .credits_contact {
+    margin-bottom: 20px;
+  }
+
+  .credits_contact .btn-group {
+    padding-bottom: 0;
+  }
+
+  .credits_contact .btn-group a {
+    width: 220px;
+    display: block;
   }
 
   .blurb {
